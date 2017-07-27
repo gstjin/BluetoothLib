@@ -58,7 +58,7 @@ A library make bluetooth use simple
                 });
  ```
 - set connect listener and monitor data
-```
+```java
 BluetoothLib.build(this)             
                 .setOnConnectListener(new OnConnectListener() {
                     @Override
@@ -90,7 +90,7 @@ BluetoothLib.build(this)
                 });
 ```
 - send data to device 
-```
+```java
 findViewById(R.id.btnSend).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
